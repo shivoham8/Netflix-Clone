@@ -1,7 +1,7 @@
 <div align="center">
 
 
- <img style="width: 50%; height: 50%;" src="netflix.svg" alt="">
+ <img style="width: 50%; height: 50%;" src="assets/images/netflix.svg" alt="">
 
 # Netflix-clone 
 
