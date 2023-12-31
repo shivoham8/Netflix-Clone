@@ -1,6 +1,11 @@
-# Netflix Clone
+<div align="center">
 
-![Netflix Clone Preview](assets/images/preview.png)
+
+ <img style="width: 50%; height: 50%;" src="netflix.svg" alt="">
+
+# Netflix-clone 
+
+</div>
 
 ## Overview
 
@@ -41,7 +46,7 @@ Contributions are welcomed! Whether it's enhancing existing features, fixing bug
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE.md).
 
 ## Acknowledgments
 
@@ -49,7 +54,7 @@ Special thanks to Netflix for the inspiration and design elements.
 
 ## Author
 
-Ajay Gupta Shivoham8(https://www.github.com/shivoham8)
+Ajay Gupta ([Shivoham8](https://www.github.com/shivoham8))
 
 ## Contact
 
