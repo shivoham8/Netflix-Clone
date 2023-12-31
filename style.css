@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;600;700;800;900&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+  background-image: url("assets/images/bg.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 90vh;
+  position: relative;
+}
+
+.main .box {
+  height: 90vh;
+  width: 100%;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+
+.logo {
+  width: 11vw;
+  padding: 3%;
+  position: relative;
+  z-index: 10;
+}
+
+nav {
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.nav-div {
+    display: flex; 
+    gap: 20px; 
+    align-items: center
+}
+
+.language:hover {
+    color: none !important;
+    pointer-events: none !important;
+}
+
+.description {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  flex-direction: column;
+  position: relative;
+  font-family: "Martel Sans", sans-serif;
+  text-align: center;
+  gap: 3.8%;
+  padding: 0 30px;
+}
+
+.description> :first-child {
+  font-weight: 900;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.description> :nth-child(2) {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.description> :nth-child(3) {
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+input {
+  background: rgba(22, 22, 22, 0.7);
+  border-color: rgba(128, 128, 128, 0.7);
+  border-radius: 0.25rem;
+}
+
+::placeholder {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    left: 1rem;
+    right: 1rem;
+    top: 1rem;
+}
+
+.separation {
+    height: 0.5rem;
+    width: 100%;
+    position: absolute;
+    bottom: -0.5rem;
+    background-color: rgb(35, 35, 35);
+}
+
+.separation-2 {
+    height: 0.5rem;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(35, 35, 35);
+}
+
+.description-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    padding: 0.25rem 1rem;
+    min-height: 2rem;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(193, 17, 25);
+}
+
+.language {
+    border: 0.1px solid white;
+    /* min-width: 8.5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 0.5rem;
+}
+
+.language-image {
+    filter: invert(1);
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+.btn-red-sm, .btn-red {
+    background: rgb(229, 9, 20);
+}
+
+.btn-red {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+}
+
+.btn-red div {
+    margin-left: 0.5rem;
+    height: 1.6rem;
+    filter: invert(100%) sepia(44%) saturate(2%) hue-rotate(297deg) brightness(111%) contrast(101%);
+}
+
+.main input {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    border: 0.1px solid rgb(238, 227, 227);
+    min-height: 2.4rem;
+    min-width: 23rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.down-arrow {
+    filter: invert(100%) sepia(44%) saturate(2%) hue-rotate(297deg) brightness(111%) contrast(101%);
+    padding: 6px 0 3px 0;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 0.5rem;
+}
+
+.first {
+    color: white;
+}
+
+.heading {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;  
+    line-height: 1.4;  
+}
+
+.text {
+    font-family: "Martel Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 65vh;
+    padding-top: 2rem;
+}
+
+.first-div {
+    position: relative;
+    bottom: 6rem;
+}
+
+.section-image {
+    position: relative;
+    padding-top: 5rem;
+    z-index: -1;
+}
+
+.section-image-second {
+    position: relative;
+    bottom: 3.8rem;
+    right: 6rem;
+    width: 38vw;
+    z-index: -1;
+}
+
+.section-image img {
+    width: 37vw;
+    position: relative;
+    z-index: 10;
+    left: 4rem;
+}
+
+.section-image video {
+    position: relative;
+    bottom: 23vw;
+    width: 28vw;
+    left: 8vw;
+}
+
+.second-div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 3rem;
+}
+
+.third-video {
+    position: relative;
+    bottom: 26vw !important;
+    width: 23vw !important;
+    left: 11vw !important;
+}
+
+.fourth-image {
+    position: relative;
+    padding: 0 !important;
+    z-index: -1;
+    right: 4rem;
+    bottom: 1rem;
+}
+
+.FAQbox {
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 70vw;
+    margin: 0.5rem auto;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.FAQbox:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+h2 {
+    padding: 3rem 0 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.FAQbox span {
+    margin: 0.5rem;
+}
+
+.separation-3 {
+    margin: 3rem 0 !important;
+}
+
+.end {
+    margin: auto;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.end span {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.end input {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    border: 0.1px solid rgb(238, 227, 227);
+    min-height: 2.4rem;
+    min-width: 23rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.end .description-buttons {
+    padding-top: 2rem;
+}
+
+footer {
+    padding: 7rem 0 4rem 0;
+    max-width: 60vw;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer .footer-items {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .first {
+       flex-wrap: wrap; 
+       padding-top: 10rem;
+       text-align: center;
+    }
+
+    .section-image {
+        padding-top: 0;
+        bottom: 7rem;
+        left: 9vw;
+    }
+
+    .section-image video {
+        bottom: 7vw;
+        width: 28vw;
+        left: -27vw;
+    }
+
+    .section-image-second {
+        position: relative;
+        bottom: 20vh;
+        right: 0;
+        width: 69vw;
+    }
+
+    .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    .second {
+        height: 80vh;
+    }
+
+    .second-div {
+        bottom: 7rem;
+    }
+
+    .third-video {
+        left: -23vw !important;
+        bottom: 14vh !important;
+    }
+
+    .fourth-image {
+        left: -7vw;
+    }
+}
