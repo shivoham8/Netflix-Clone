@@ -49,7 +49,7 @@ Special thanks to Netflix for the inspiration and design elements.
 
 ## Author
 
-Ajay Gupta (Shivoham8(https://www.github.com/shivoham8))
+Ajay Gupta Shivoham8(https://www.github.com/shivoham8)
 
 ## Contact
 
