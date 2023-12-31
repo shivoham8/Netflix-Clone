@@ -35,21 +35,22 @@ Contributions are welcomed! Whether it's enhancing existing features, fixing bug
 
 ## Technologies Used
 
-HTML
-CSS
-JavaScript
-License
+- HTML
+- CSS
+- JavaScript
 
-This project is licensed under the [MIT License]
+## License
 
-Acknowledgments
+This project is licensed under the MIT License.
+
+## Acknowledgments
 
 Special thanks to Netflix for the inspiration and design elements.
 
-Author
+## Author
 
-[Your Name] (Your GitHub Profile)
+[Ajay Gupta] ([Shivoham8](https://www.github.com/shivoham8))
 
-Contact
+## Contact
 
-For inquiries or feedback, please contact [your.email@example.com].   
+For inquiries or feedback, please contact [ajaygupta230085@gmail.com](mailto:ajaygupta230085@gmail.com).
